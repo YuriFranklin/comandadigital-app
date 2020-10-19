@@ -3,9 +3,10 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { ThemeContext } from 'styled-components';
 import BillRoutes from './bill.routes';
+import ITheme from '../styles/themes/types';
 
 const Main: React.FC = () => {
-  const { colors } = useContext(ThemeContext);
+  const { colors } = useContext<ITheme>(ThemeContext);
   const Tab = createBottomTabNavigator();
 
   return (

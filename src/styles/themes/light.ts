@@ -1,7 +1,11 @@
-export default {
+import ITheme from './types';
+
+const Light: ITheme = {
   title: 'light',
 
   colors: {
+    white: '#FFF',
+
     primary: '#673AB7',
     primarylight: '#9a67ea',
     primarydark: '#320b86',
@@ -18,3 +22,5 @@ export default {
     textnohighlight: '#91948C',
   },
 };
+
+export default Light;
