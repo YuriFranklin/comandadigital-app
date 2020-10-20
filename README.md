@@ -8,17 +8,17 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/YuriFranklin/AppComandaDigital">
+  <a href="https://github.com/YuriFranklin/comandadigital-app">
     <img src="src/assets/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Comanda Digital</h3>
   <p align="center">
     React Native Application for Comanda Digital project!
     <br />
-    <a href="https://github.com/YuriFranklin/AppComandaDigital"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/YuriFranklin/comandadigital-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/YuriFranklin/AppComandaDigital">View Demo soon</a></a>
+    <a href="https://github.com/YuriFranklin/comandadigital-app">View Demo soon</a></a>
   </p>
 </p>
 
