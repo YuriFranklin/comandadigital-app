@@ -14,7 +14,10 @@ const Bill: React.FC = () => {
       screenOptions={{
         headerShown: true,
         headerTransparent: true,
+        headerTitleAlign: 'center',
         headerTitleStyle: {
+          letterSpacing: 2,
+          textTransform: 'uppercase',
           color: colors.white,
         },
       }}

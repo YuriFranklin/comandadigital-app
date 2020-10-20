@@ -1,10 +1,12 @@
 import React, { useLayoutEffect } from 'react';
-import { View } from 'react-native';
-import Button from '../../components/Button';
+import { Button } from 'react-native';
+import Background from '../../components/Background';
 import {
   HomeScreenNavigationProps,
   HomeScreenRouteProps,
 } from '../../routes/types';
+
+import { Container } from './styles';
 
 type Props = {
   route: HomeScreenRouteProps;
@@ -15,11 +17,15 @@ const Home: React.FC<Props> = ({ navigation, route }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: 'Contas',
-      headerRight: () => <Button onPress={() => console.log('Clicked')} />,
+      headerRight: () => {},
     });
   }, [navigation]);
 
-  return <View style={{ backgroundColor: '#000', flex: 1 }} />;
+  return (
+    <Container>
+      <Background />
+    </Container>
+  );
 };
 
 export default Home;
