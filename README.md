@@ -58,7 +58,7 @@ and others!
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/YuriFranklin/ && cd comandadigital-app 
+$ git clone https://github.com/YuriFranklin/comandadigital-app.git && cd comandadigital-app 
 ```
 
 **Follow the steps below**
